@@ -3,6 +3,10 @@
 font-family: 'font01';
 src: url(activists/Activists\ Regular.otf)}
 
+@font-face{
+    font-family: 'font02';
+    src: url(Sweety\ Rasty.otf)}
+
 .brand-logo{ font-family: 'font01';
                 padding-: -10px;
 }
@@ -14,7 +18,25 @@ src: url(activists/Activists\ Regular.otf)}
     width: inherit;
 }
 
+.funcao h5{
+    text-align: center;
+    color: #292929c9;
+    font-family: 'font02';
+}
 
+fieldset {
+    width: 350px;
+    position: absolute;
+    right: 40px;
+    top: 80px;
+    border-color:#026f7ef5;
+}
+
+.sobre h3{
+    text-align: right;
+    color: #292929c9;
+    font-family: 'font01';
+}
 
 /* .image {
     margin: 0;
@@ -91,7 +113,7 @@ max-width: 100%;
 overflow: hidden;
 vertical-align: top;
 border-radius: 100%;
-border-color: #0657ec;
+border-color:#026f7ef5;
 border-style: solid;
 border-width: 10px;
 box-shadow: 0rem 0rem 0.125rem 0rem #FFFFFF;
